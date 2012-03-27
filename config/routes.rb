@@ -1,4 +1,6 @@
 Rfm::Application.routes.draw do
+  resources :contents
+
   resources :categories
 
   get "main/index"
